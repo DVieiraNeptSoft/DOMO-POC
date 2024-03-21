@@ -1,0 +1,20 @@
+var filename = "InvoiceNr" + gs_invoice.EBELN + ".pdf";
+
+var fileContent = modelMultiModelGetExceptionPDF.oData[0].pdf64string.split(
+    "data:application/pdf;base64,"
+)[1];
+
+var options = {
+    data: {
+        GS_INVOICE: {
+            EBELN: gs_invoice.EBELN,
+            BELNR: gs_invoice.BELNR,
+            ZTOTAL: gs_invoice.ZTOTAL,
+            ZCOMMENTS: modelSimpleFormExceptionReply.oData.ZCOMMENTS,
+        },
+
+        attachments: { filename: filename, data: fileContent },
+    },
+};
+
+apiRestAPISendReplyEmailExceptions(options);

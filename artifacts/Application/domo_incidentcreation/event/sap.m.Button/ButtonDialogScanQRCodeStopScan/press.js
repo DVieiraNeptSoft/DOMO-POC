@@ -1,0 +1,2 @@
+stopScan();
+DialogScanQRCode.close();

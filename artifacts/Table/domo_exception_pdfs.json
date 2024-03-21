@@ -1,0 +1,38 @@
+{
+	"id": "cb44c05a-ffc0-ee11-85f9-0022489e2e3e",
+	"createdAt": "2024-02-01T12:42:30.250Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "c169f5b9-f4b8-4ce2-89fe-a15abd5fed15",
+			"fieldName": "ebeln",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3fe7eb82-c91c-436c-ebe6-9d147c051e26",
+			"fieldName": "belnr",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e567662d-da8b-4b1a-8443-fc95b476085e",
+			"fieldName": "pdf64string",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "domo_exception_pdfs",
+	"description": null,
+	"ver": "24.2.1.138",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "ff3a230e-00af-ee11-8925-0022489e23d1",
+	"rolesRead": [],
+	"rolesWrite": []
+}

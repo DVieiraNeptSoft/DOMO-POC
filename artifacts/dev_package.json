@@ -1,0 +1,255 @@
+{
+	"id": "ff3a230e-00af-ee11-8925-0022489e23d1",
+	"createdAt": "2024-01-09T15:02:07.696Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/DOMO-POC"
+	},
+	"name": "DOMO POC",
+	"description": null,
+	"ver": "24.3.21.1426",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "d542dd3e-00af-ee11-8925-0022489e23d1",
+			"application": "domo_incidentcreation",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		},
+		{
+			"id": "9f32c95e-fbc0-ee11-85f9-0022489e2e3e",
+			"application": "domo_exceptionemail_po",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		},
+		{
+			"id": "8688767c-0bb9-ee11-b661-0022489e2ba0",
+			"application": "domo_invoice_processing",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		},
+		{
+			"id": "615fc38b-b6b6-ee11-8925-0022489e23d1",
+			"application": "domo_generate_invoice_pdfs",
+			"title": "",
+			"description": "Generate PDF and send it as an attachment in an email",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		},
+		{
+			"id": "4afa8503-37b5-ee11-8925-0022489e23d1",
+			"application": "domo_confirm_po_posting",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		},
+		{
+			"id": "19d47533-25c1-ee11-85f9-0022489e2e3e",
+			"application": "domo_incidentviewer",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "FF3A230E-00AF-EE11-8925-0022489E23D1"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "a4bfadd0-d6b6-ee11-8925-0022489e23d1",
+			"name": "DOMOSCRIPTS",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "88f62d63-ffc0-ee11-85f9-0022489e2e3e",
+			"name": "domo_exception_pdfs",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "85d6d8db-b1af-ee11-8925-0022489e23d1",
+			"name": "ZCL_DOMO_INCIDENTCREATION",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7f69829d-44e4-ed11-9f73-000d3aba0713",
+			"name": "PDFToImage",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "4cc07128-b8b6-ee11-8925-0022489e23d1",
+			"name": "ZCL_DOMO_INVOICE_PROCESSING",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "cb44c05a-ffc0-ee11-85f9-0022489e2e3e",
+			"name": "domo_exception_pdfs",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "d0baaa4e-0cc1-ee11-85f9-0022489e2e3e",
+			"name": "SendReplyEmailException",
+			"description": ""
+		},
+		{
+			"id": "98793bb9-f9c0-ee11-85f9-0022489e2e3e",
+			"name": "SendEmailException",
+			"description": ""
+		},
+		{
+			"id": "374611e9-4ac0-ee11-85f9-0022489e2e3e",
+			"name": "SendEmailPosting",
+			"description": ""
+		},
+		{
+			"id": "34e3df95-d6b6-ee11-8925-0022489e23d1",
+			"name": "SendInvoiceEmail",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "ffad597b-d6b6-ee11-8925-0022489e23d1",
+			"name": "DOMOScripts",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [
+		{
+			"id": "09c449c2-19b6-ee11-8925-0022489e23d1",
+			"application": "domo_po_pdf",
+			"description": ""
+		}
+	],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "bed97450-fdc0-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "domo_exceptionEmail_po"
+		},
+		{
+			"id": "869f38a5-f0c0-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "domoInvoiceGeneratePDF"
+		},
+		{
+			"id": "6eb05856-37b5-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "domo_po_posting"
+		},
+		{
+			"id": "39dc958a-f0c0-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "domoInvoiceProcess"
+		},
+		{
+			"id": "1a9923f8-d4af-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "domoIncidentCreation"
+		}
+	],
+	"category": [
+		{
+			"id": "87b35013-d5af-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "domoIncidentTileGroup"
+		},
+		{
+			"id": "80497ed8-aec1-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "domoIncidentPWATileGroup"
+		},
+		{
+			"id": "41ba2cb5-f0c0-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "domoInvoiceTileGroup"
+		},
+		{
+			"id": "318b3339-fdc0-ee11-85f9-0022489e2e3e",
+			"description": null,
+			"name": "tilegroup_domo_exceptionEmail"
+		},
+		{
+			"id": "2d415765-37b5-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "tilegroup_domo_po_posting"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "e8536037-d5af-ee11-8925-0022489e23d1",
+			"name": "domoPOCLaunchpad",
+			"description": null
+		},
+		{
+			"id": "63a8ffa4-adc1-ee11-85f9-0022489e2e3e",
+			"name": "domoPOCPWA",
+			"description": null
+		},
+		{
+			"id": "0e4e93ec-36b5-ee11-8925-0022489e23d1",
+			"name": "domo_confirm_po_posting",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "bea07e41-4ac0-ee11-85f9-0022489e2e3e",
+			"name": "domo_po_posting",
+			"description": "Posting needs confirmation"
+		},
+		{
+			"id": "acde74bc-fac0-ee11-85f9-0022489e2e3e",
+			"name": "domo_po_exception",
+			"description": "Invoice does not match with the PO"
+		},
+		{
+			"id": "820d5a83-0cc1-ee11-85f9-0022489e2e3e",
+			"name": "domo_po_exception_reply",
+			"description": "Reply: Invoice does not match with the PO"
+		},
+		{
+			"id": "024d34d4-34b5-ee11-8925-0022489e23d1",
+			"name": "domo_po_email",
+			"description": "Invoice needs to be verified"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

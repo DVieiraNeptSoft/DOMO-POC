@@ -1,0 +1,15 @@
+var GS_EKKO = {};
+
+var options = {
+    parameters: {
+        $select: "", // Optional
+        "sap-client": "800", // Required
+    },
+    data: {
+        GS_EKKO: {
+            EBELN: modelSimpleFormSendHeader.oData.EBELN,
+        },
+    },
+};
+
+apiRestAPIGetPoDataEx2(options);

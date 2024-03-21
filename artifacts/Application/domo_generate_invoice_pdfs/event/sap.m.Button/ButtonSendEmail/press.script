@@ -1,0 +1,24 @@
+App.setBusy(true);
+
+var tableEKBE = modelMultiModelEx1.oData.result.GT_EKBE;
+
+var filename = "InvoiceNr" + modelSimpleFormSendHeader.oData.EBELN + ".pdf";
+
+// pdfAttachment = "data:application/pdf;base64," + pdfAttachment;
+
+
+
+var options = {
+    data: {
+        GS_EKKO: {
+            EBELN: modelSimpleFormSendHeader.oData.EBELN,
+            BUKRS: modelSimpleFormShowHeader.oData.BUKRS,
+        },
+
+        attachments: { filename: filename, data: pdfAttachment },
+    },
+};
+
+// console.log(pdfAttachment);
+
+apiRestAPISendEmail(options);

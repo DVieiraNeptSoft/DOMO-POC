@@ -1,0 +1,14 @@
+const binding = ListIncidents.getBinding("items");
+var filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("ZINCIDENTNR", "EQ", this.getValue()),
+        new sap.ui.model.Filter("EQUNR", "EQ", this.getValue()),
+    ],
+    and: false,
+});
+
+if (this.getValue() === "") {
+    binding.filter();
+} else {
+    binding.filter([filter]);
+}

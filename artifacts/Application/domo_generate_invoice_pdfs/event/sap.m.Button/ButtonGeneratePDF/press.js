@@ -1,0 +1,3 @@
+App.setBusy(true);
+
+generatePDF();

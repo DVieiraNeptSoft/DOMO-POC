@@ -1,0 +1,9 @@
+if (typeof ZDATE === "undefined" || ZDATE === null || ZDATE === "") {
+    return;
+}
+if (typeof ZTIME === "undefined" || ZTIME === null || ZTIME === "") {
+    return;
+}
+
+var formattedText = convertDate(ZDATE) + " " + convertTime(ZTIME);
+return formattedText;

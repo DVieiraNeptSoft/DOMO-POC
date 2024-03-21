@@ -1,0 +1,2 @@
+Image.setSrc(this.getSrc());
+oDialog.open();

@@ -1,0 +1,6 @@
+var context = oEvent.oSource.getBindingContext();
+var data = context.getObject();
+
+modelDialogImage.setData(data);
+
+DialogImage.open();

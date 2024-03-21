@@ -1,0 +1,14 @@
+var fileValue = pdfUploader.getValue();
+if (fileValue === "") {
+    sap.m.MessageToast.show("Please select pdf to convert !");
+    return;
+}
+sap.ui.core.BusyIndicator.show(0);
+
+var options = {
+    data: {
+        pdfFile: fileContentBase64
+    },
+};
+
+apiRestAPIConvertPDF(options);

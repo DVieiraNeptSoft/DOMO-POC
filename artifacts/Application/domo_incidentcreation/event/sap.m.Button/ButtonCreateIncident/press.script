@@ -1,0 +1,4 @@
+console.log(modelSimpleFormIncidents.oData);
+console.log(modelListIncidentPictures.oData);
+
+createIncident();

@@ -1,0 +1,17 @@
+sap.ui.core.BusyIndicator.show(0);
+
+var options = {
+    parameters: {
+        $select: "", // Optional
+        "sap-client": "800", // Required
+    },
+    data: {
+        GS_INVOICE: {
+            EBELN: modelSimpleFormUpload.oData.EBELN,
+            BELNR: materialDocument,
+            ZTOTAL: modelSimpleFormUpload.oData.ZTOTAL,
+        },
+    },
+};
+
+apiRestAPIverifyPO(options);
