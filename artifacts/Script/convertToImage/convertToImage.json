@@ -1,0 +1,27 @@
+{
+	"id": "f4947a33-44e4-ed11-9f73-000d3aba0713",
+	"createdAt": "2023-04-26T15:08:31.576Z",
+	"createdBy": "abesh@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "57FA1FA1-52E4-ED11-9F73-000D3ABA0713",
+			"name": "pdf-to-img",
+			"contextname": "pdftoimg",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/pdf-to-img"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "convertToImage",
+	"ver": "23.4.27.1327",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0fa7332d-44e4-ed11-9f73-000d3aba0713",
+	"package": "ff3a230e-00af-ee11-8925-0022489e23d1"
+}

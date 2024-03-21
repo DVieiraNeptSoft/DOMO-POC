@@ -7,7 +7,7 @@
 	},
 	"name": "DOMO POC",
 	"description": null,
-	"ver": "24.3.21.1426",
+	"ver": "24.3.21.1427",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -108,6 +108,11 @@
 	],
 	"jsclass": [
 		{
+			"id": "f4947a33-44e4-ed11-9f73-000d3aba0713",
+			"name": "convertToImage",
+			"description": null
+		},
+		{
 			"id": "d0baaa4e-0cc1-ee11-85f9-0022489e2e3e",
 			"name": "SendReplyEmailException",
 			"description": ""
@@ -126,6 +131,11 @@
 			"id": "34e3df95-d6b6-ee11-8925-0022489e23d1",
 			"name": "SendInvoiceEmail",
 			"description": null
+		},
+		{
+			"id": "203371d5-59e1-ee11-aaee-000d3a64f889",
+			"name": "aaa",
+			"description": null
 		}
 	],
 	"jsscript_group": [
@@ -133,6 +143,11 @@
 			"id": "ffad597b-d6b6-ee11-8925-0022489e23d1",
 			"name": "DOMOScripts",
 			"description": ""
+		},
+		{
+			"id": "0fa7332d-44e4-ed11-9f73-000d3aba0713",
+			"name": "pdftoimage",
+			"description": null
 		}
 	],
 	"theme": [],

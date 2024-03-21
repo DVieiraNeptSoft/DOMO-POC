@@ -1,0 +1,20 @@
+{
+	"id": "203371d5-59e1-ee11-aaee-000d3a64f889",
+	"createdAt": "2024-03-13T16:50:45.450Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "aaa",
+	"ver": "24.3.13.1650",
+	"description": null,
+	"content": "",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0fa7332d-44e4-ed11-9f73-000d3aba0713",
+	"package": "ff3a230e-00af-ee11-8925-0022489e23d1"
+}
