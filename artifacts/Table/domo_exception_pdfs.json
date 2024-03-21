@@ -29,9 +29,9 @@
 	"foreignKeys": [],
 	"name": "domo_exception_pdfs",
 	"description": null,
-	"ver": "24.2.1.138",
-	"enableAudit": false,
-	"includeDataInPackage": false,
+	"ver": "24.3.21.168",
+	"enableAudit": true,
+	"includeDataInPackage": true,
 	"package": "ff3a230e-00af-ee11-8925-0022489e23d1",
 	"rolesRead": [],
 	"rolesWrite": []
